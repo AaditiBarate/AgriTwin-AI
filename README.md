@@ -477,7 +477,7 @@ The prototype demonstrates the complete decision-making workflow from farmer inp
 
 The farmer can view their active harvest, expected net profit, AI recommendation and access the AI Decision Engine.
 
-![AgriTwin AI Farmer Dashboard](screenshots/dashboard.jpeg)
+<img src="screenshots/dashboard.jpeg" width="500">
 
 ---
 
@@ -485,7 +485,7 @@ The farmer can view their active harvest, expected net profit, AI recommendation
 
 The system provides a personalized recommendation for how much of the harvest should be sold immediately and how much should be stored for potentially better future returns.
 
-![AI Recommendation Summary](screenshots/ai-recommendation.jpeg)
+<img src="screenshots/ai-recommendation.jpeg" width="500">
 
 ---
 
@@ -499,8 +499,8 @@ The AI Decision Engine considers multiple factors that can affect the farmer's e
 - Transportation cost
 - Storage cost
 - Spoilage risk
-
-![AI Decision Engine](screenshots/decision-engine.jpeg)
+- 
+<img src="screenshots/decision-engine.jpeg" width="500">
 
 ---
 
@@ -516,7 +516,7 @@ The system evaluates:
 
 Each scenario is evaluated using expected revenue, costs and risks.
 
-![Scenario Simulation](screenshots/scenario-simulation.jpeg)
+<img src="screenshots/scenario-simulation.jpeg" width="500">
 
 ---
 
@@ -533,7 +533,7 @@ The explanation considers factors such as:
 - Spoilage protection
 - Transportation costs
 
-![Why AI Recommended This Scenario](screenshots/ai-explanation.jpeg)
+<img src="screenshots/ai-explanation.jpeg" width="500">
 
 ---
 
@@ -541,7 +541,7 @@ The explanation considers factors such as:
 
 After deciding when and how much to sell, farmers can view suitable buyers and compare their offers, requirements and distance.
 
-![Buyer Matching](screenshots/buyers.jpeg)
+<img src="screenshots/buyers.jpeg" width="500">
 
 > **Prototype Note:** The market values, predictions and recommendations shown in these screenshots are demonstration data used to illustrate the decision-support workflow. A production deployment would integrate validated real-time market, weather, demand and storage data.
 
