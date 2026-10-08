@@ -379,91 +379,40 @@ Instead, the platform focuses on **actionable information**.
 
 ---
 
-# 🔄 End-to-End Workflow
+## 🔄 End-to-End Workflow
 
- 
-┌─────────────────────────┐
-│        FARMER           │
-│ Crop / Quantity / Area  │
-└────────────┬────────────┘
-             ↓
-┌─────────────────────────┐
-│    MARKET INFORMATION   │
-│ Current & Historical    │
-│ Price / Trends          │
-└────────────┬────────────┘
-             ↓
-┌─────────────────────────┐
-│    PRICE PREDICTION     │
-│ Future Price Outlook    │
-└────────────┬────────────┘
-             ↓
-┌─────────────────────────┐
-│    PROFIT ANALYSIS      │
-│ Revenue - Relevant Cost │
-└────────────┬────────────┘
-             ↓
-┌─────────────────────────┐
-│   BUYER COMPARISON      │
-│ Price / Distance / etc. │
-└────────────┬────────────┘
-             ↓
-┌─────────────────────────┐
-│ PERSONALIZED DECISION   │
-│                         │
-│   SELL / WAIT / STORE   │
-└────────────┬────────────┘
-             ↓
-┌─────────────────────────┐
-│ 🎯 PROFIT-ORIENTED      │
-│ FARMER DECISION         │
-└─────────────────────────┘
- 
+```mermaid
+flowchart LR
+    A["👨‍🌾 Farmer<br/>Crop • Quantity • Area • Location"] --> B["📊 Market Information<br/>Current & Historical Prices"]
+    B --> C["📈 Price Prediction<br/>Future Price Outlook"]
+    C --> D["💰 Profit Analysis<br/>Revenue − Relevant Costs"]
+    D --> E["🛒 Buyer Comparison<br/>Price • Distance • Requirements"]
+    E --> F["🤖 Personalized Decision Engine"]
+    F --> G["🌾 Sell / Wait / Store"]
+    G --> H["🎯 Profit-Oriented<br/>Farmer Decision"]
 
----
+    F --> I["📊 Scenario Simulation"]
+    I --> F
 
-# 🏗️ System Architecture
-  
-   👨‍🌾 FARMER
-                       │
-                       ▼
-        ┌──────────────────────────┐
-        │   Farmer Input Layer     │
-        │ Crop | Quantity | Area   │
-        │ Location | Cost Factors │
-        └────────────┬─────────────┘
-                     │
-                     ▼
-        ┌──────────────────────────┐
-        │    Market Data Layer     │
-        │ Price | Trends | Buyers │
-        └────────────┬─────────────┘
-                     │
-                     ▼
-        ┌──────────────────────────┐
-        │   AI / Prediction Layer  │
-        │ Price Prediction         │
-        │ Trend Estimation         │
-        └────────────┬─────────────┘
-                     │
-                     ▼
-        ┌──────────────────────────┐
-        │  Decision Intelligence   │
-        │                          │
-        │ Profit Analysis          │
-        │ Buyer Comparison         │
-        │ Strategy Evaluation      │
-        └────────────┬─────────────┘
-                     │
-            ┌────────┼────────┐
-            ▼        ▼        ▼
-          SELL      WAIT     STORE
-            │        │        │
-            └────────┼────────┘
-                     ▼
-           💰 EXPECTED RETURN
+```markdown
+## 🏗️ System Architecture
 
----
+```mermaid
+flowchart TB
+    A["👨‍🌾 Farmer"] --> B["📱 Farmer Input Layer<br/>Crop • Quantity • Area • Location • Cost Factors"]
+
+    B --> C["📊 Market Data Layer<br/>Prices • Trends • Buyers"]
+
+    C --> D["🤖 AI / Prediction Layer<br/>Price Prediction • Demand/Trend Estimation"]
+
+    D --> E["🧠 Decision Intelligence Layer<br/>Profit Analysis • Buyer Comparison • Strategy Evaluation"]
+
+    E --> F["📈 Scenario Simulation<br/>Sell Today • Wait • Partial Sell + Store"]
+
+    F --> G["🎯 Personalized Recommendation<br/>Expected Profit + Risk Analysis"]
+
+    G --> H["🌾 Farmer Decision<br/>Sell / Wait / Store"]
+
 
 ## 📱 Prototype Screenshots
 
