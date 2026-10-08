@@ -465,6 +465,86 @@ Instead, the platform focuses on **actionable information**.
 
 ---
 
+## 📱 Prototype Screenshots
+
+AgriTwin AI is designed around one core objective:
+
+> **Help farmers make decisions that can maximize their expected profit — not simply chase the highest market price.**
+
+The prototype demonstrates the complete decision-making workflow from farmer input and market analysis to scenario comparison, explainable recommendations and buyer matching.
+
+### 1. Farmer Dashboard
+
+The farmer can view their active harvest, expected net profit, AI recommendation and access the AI Decision Engine.
+
+![AgriTwin AI Farmer Dashboard](screenshots/dashboard.jpeg)
+
+---
+
+### 2. AI Recommendation Summary
+
+The system provides a personalized recommendation for how much of the harvest should be sold immediately and how much should be stored for potentially better future returns.
+
+![AI Recommendation Summary](screenshots/ai-recommendation.jpeg)
+
+---
+
+### 3. AI Decision Engine
+
+The AI Decision Engine considers multiple factors that can affect the farmer's expected profit:
+
+- Market prices
+- Future demand
+- Weather risk
+- Transportation cost
+- Storage cost
+- Spoilage risk
+
+![AI Decision Engine](screenshots/decision-engine.jpeg)
+
+---
+
+### 4. Scenario Simulation
+
+Instead of recommending a decision based only on today's price, AgriTwin AI compares multiple possible strategies.
+
+The system evaluates:
+
+- Selling today
+- Waiting and storing
+- Partially selling today and storing the remaining harvest
+
+Each scenario is evaluated using expected revenue, costs and risks.
+
+![Scenario Simulation](screenshots/scenario-simulation.jpeg)
+
+---
+
+### 5. Explainable AI Recommendation
+
+AgriTwin AI does not simply provide a recommendation. It explains **why** a particular strategy is considered better.
+
+The explanation considers factors such as:
+
+- Immediate cash-flow requirements
+- Expected price increase
+- Demand trends
+- Storage costs
+- Spoilage protection
+- Transportation costs
+
+![Why AI Recommended This Scenario](screenshots/ai-explanation.jpeg)
+
+---
+
+### 6. Buyer Matching
+
+After deciding when and how much to sell, farmers can view suitable buyers and compare their offers, requirements and distance.
+
+![Buyer Matching](screenshots/buyers.jpeg)
+
+> **Prototype Note:** The market values, predictions and recommendations shown in these screenshots are demonstration data used to illustrate the decision-support workflow. A production deployment would integrate validated real-time market, weather, demand and storage data.
+
 # 🧩 Key Features
 
 ### 🎯 1. Profit-First Decision Support
